@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactpagina</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/07aa6e3590.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
+</head>
+<body>
+   
+    <div class="navigation" id="navigation-head">
+        <a href="" class="active">Yannick Marijnissen</a>
+        <a href="startpagina.html">Home</a>
+        <a href="cv.html">Mijn cv</a>
+        <a href="Hobby's.html">Mijn hobby's</a>
+        <a href="overmij.html">Over mij</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="icon" onclick="toggleResponsiveClass()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-md-8">
+                    <div class="contact"><p>Yannick Marijnissen</p>
+                        <p>Graduaat Programmeren</p>
+                            <p>U kunt mij altijd contacteren via de onderstaande opties.</p>
+                            <p><i class="fas fa-map-marker-alt"></i>  Leeuwerikenplein 4, 2260 Westerlo</p>
+                            <p><i class="fas fa-envelope-square"></i> r0888465@student.thomasmore.be</p> 
+                            <p><i class="fas fa-phone"></i> 0494307466</p>
+                            <p><i class="fab fa-discord"></i> Venox#9489</p>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <h2 class="form-group">Contact</h2>
+                    <form class="form" action="" method="POST">
+                        <div class="form-group">
+                            <label for="Naam">Naam
+                                <input type="text" class="form-control" id="name" required>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Voornaam">Voornaam
+                                <input type="text" class="form-control" id="name" required>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="e-mail">e-mail
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label  for="skills">Kies een skill
+                                <select class="form-control" name="skills" id="Skills" required>
+                                    <option value=""></option>
+                                    <option value="HTML">HTML</option>
+                                    <option value="CSS">CSS</option>
+                                    <option value="SQL">SQL</option>
+                                    <option value="Bootstrap">Bootstrap</option>
+                                    <option value="C#">c#</option>
+                                  </select>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Vragen">Heeft u nog vragen?</label>
+                            <textarea class="form-control" name="Vragen" id="Vragen" cols="1" rows="10"></textarea>
+                        </div>
+                        <div class="form-group">
+                        <button  type="submit" class="btn btn-primary">Indienen</button></div>
+                    </form>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+       
+    
+         
+    
+
+       
+       
+        <footer>
+            &copy; Copyright Marijnissen Yannick
+            <a href="https://www.facebook.com/profile.php?id=100009496830814"><i class="fab fa-facebook"></i></a> 
+            <a href="https://www.instagram.com/marijnissenyannick/"><i class="fab fa-instagram"></i></a>  
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+     </footer>
+</body>
+</html>
